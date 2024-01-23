@@ -66,7 +66,7 @@ btnHold.addEventListener('click', function(){
     if(playing){
         scores[activePlayer] += currentScore;
         document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
-        //Check scroe >= 100 or not, if so finsih the game.
+        //Check scroe >= 20 or not, if so finsih the game.
         if(scores[activePlayer] >= 20){
            //finish game..
            playing = false;
